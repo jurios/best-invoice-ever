@@ -1,9 +1,11 @@
+<h4 align="center"> Based on the project <a href="https://github.com/salomonelli/best-resume-ever"><b>best-resume-ever</b></a> by <a href="https://github.com/salomonelli">Sara Steiert</a></strong>
+
 <h1 align="center">
   <br>
   <a href="https://github.com/salomonelli/best-resume-ever">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
-  best-resume-ever
+  best-invoice-ever
   <br>
 </h1>
 
@@ -14,7 +16,7 @@
 </div>
 
 <h4 align="center">
-  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
+  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful invoices and create your best invoice ever!
   <br><br>
   Made with Vue and LESS.
 </h4>
@@ -23,15 +25,7 @@
 <br>
 
 <p align="left">
-<img src="src/assets/preview/resume-creative.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-purple.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-side-bar-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-left-right-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
 <img src="src/assets/preview/resume-material-dark.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-left-right.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-side-bar.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-oblique.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-cool.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
 </p>
 
 <br>
@@ -79,6 +73,8 @@ Feel free to add your own templates, language supports, fix bugs or improve the 
 
 ## Credits
 
+Forked from the project <a href="https://github.com/salomonelli/best-resume-ever"><b>best-resume-ever</b></a> by <a href="https://github.com/salomonelli">Sara Steiert</a>
+
 This project uses several open source packages:
 
 * <a href="https://github.com/vuejs/vue" target="_blank">Vue</a>
@@ -89,12 +85,13 @@ This project uses several open source packages:
 
 
 ---
-
+best-resume-ever credits
 > [sarasteiert.com](https://www.sarasteiert.com) &nbsp;&middot;&nbsp;
 > GitHub [@salomonelli](https://github.com/salomonelli) &nbsp;&middot;&nbsp;
 > Twitter [@salomonelli](https://twitter.com/salomonelli)
 
-
+best-invoice-ever credits
+> GitHub [@jurios](https://github.com/jurios) &nbsp;&middot;&nbsp;
 ## License
 
 [MIT](https://github.com/salomonelli/best-resume-ever/blob/master/LICENCE.md)

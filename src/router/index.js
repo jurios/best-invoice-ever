@@ -13,8 +13,8 @@ export default new Router({
             component: Home
         },
         {
-            path: '/resume/:resumeid',
-            name: 'resume',
+            path: '/invoice/:resumeid',
+            name: 'invoice',
             component: Resume
         }
     ]

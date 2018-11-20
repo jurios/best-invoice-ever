@@ -10,7 +10,7 @@
 
 <script>
 import Vue from 'vue';
-import '../resumes/resumes';
+import '../invoices/invoices';
 export default Vue.component('resume', {
     name: 'app'
 });

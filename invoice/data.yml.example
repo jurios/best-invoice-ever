@@ -1,0 +1,41 @@
+/* #*/ export const PERSON = `
+reference: "00000000"
+date: 00/00/0000
+subject: Work
+
+taxes:
+  - tax: TAX1
+    value: +1
+    type: "%"
+  - tax: TAX2
+    value: -2
+    type: "%"
+
+contact:
+  full_name: Contact Full name
+  address: Address Address n1
+  town: Town
+  province: Province
+  dni: "00000000C"
+
+client:
+  full_name: Client Full name
+  address: Address Address n1
+  town: Town
+  province: Province
+  dni: "00000000C"
+
+items:
+  - item: Item 1
+    quantity: 10.75
+    price: 10
+  - item: Item 2
+    quantity: 20
+    price: 10
+  - item: Item 2
+    quantity: 20
+    price: 10
+
+# en, ca, es
+lang: en
+`

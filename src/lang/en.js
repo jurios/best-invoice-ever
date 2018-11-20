@@ -1,13 +1,17 @@
 // English
 const lang = {
+    invoice: 'Invoice',
     contact: 'Contact',
-    born: 'Born',
-    bornIn: 'in',
-    experience: 'Experience',
-    education: 'Education',
-    skills: 'Skills',
-    projects: 'Projects',
-    contributions: 'Contributions',
-    about: 'About me'
+    full_name: 'Full name',
+    address: 'Address',
+    town: 'Town',
+    client: 'Client',
+    date: 'Date',
+    subject: 'Subject',
+    quantity: 'Quantity',
+    price: 'Price',
+    province: 'Province',
+    dni: 'DNI',
+    bye: 'Thank you!'
 };
 export default lang;

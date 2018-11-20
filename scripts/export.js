@@ -58,7 +58,7 @@ const convert = async () => {
                 args: ['--no-sandbox']
             });
             const page = await browser.newPage();
-            await page.goto(`http://localhost:${config.dev.port}/#/resume/` + dir.name, {
+            await page.goto(`http://localhost:${config.dev.port}/#/invoice/` + dir.name, {
                 waitUntil: 'networkidle2'
             });
             await page.pdf({
@@ -86,7 +86,7 @@ const getResumesFromDirectories = () => {
 };
 
 const getDirectories = () => {
-    const srcpath = path.join(__dirname, '../src/resumes');
+    const srcpath = path.join(__dirname, '../src/invoices');
     return fs.readdirSync(srcpath)
     .filter(file => file !== 'resumes.js' && file !== 'template.vue' && file !== 'options.js');
 };
