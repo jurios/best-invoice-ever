@@ -2,6 +2,7 @@
 reference: "00000000"
 date: 00/00/0000
 subject: Work
+comment: ""
 
 taxes:
   - tax: TAX1

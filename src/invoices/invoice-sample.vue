@@ -98,6 +98,14 @@
       </div>
     </div>
 
+    <div class="content content__comment">
+      <div class="section">
+        <div class="section-content">
+          {{ person.comment }}
+        </div>
+      </div>
+    </div>
+
     <div class="content content__footer">
       <div class="section">
         <div class="section-content">
@@ -203,7 +211,7 @@ a {
   }
   &__left {
     width: @left-column-width;
-    color: rgba(255, 255, 255, 0.59);
+    color: white;
     background-color: @accent-color;
     .section-headline {
       color: white;
@@ -229,7 +237,7 @@ a {
     }
 
     table tr.total {
-      background-color: @accent-color;
+      background-color: @accent-color !important;
       font-weight: bold;
       color: white;
       text-align: center;
@@ -240,8 +248,19 @@ a {
     background-color: @banner-color;
     position: absolute;
     bottom: 0px;
-    height: 7%;
+    height: 78px;
     color: white;
+
+    h1 {
+      margin: 0px;
+    }
+  }
+
+  &__comment {
+    color: @banner-color;
+    position: absolute;
+    bottom: 78px;
+    height: 7%;
 
     h1 {
       margin: 0px;
