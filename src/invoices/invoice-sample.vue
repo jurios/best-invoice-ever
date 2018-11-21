@@ -121,8 +121,8 @@ export default Vue.component(name, getVueOptions(name));
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
+@accent-color: #dc9122;
+@banner-color: #34495E;
 @banner-height: 75px;
 @picture-size: 120px;
 @picture-offset: 35px;
@@ -149,8 +149,8 @@ a {
   width: @picture-size;
   border-radius: 50%;
   border: 5px solid @accent-color;
-  content: url('../../invoice/id.jpg');
-  background-color: #da5454;
+  content: url('../../invoice/id.png');
+  background-color: #dc9122;
   z-index: 2;
   box-shadow: 0px 0px 20px -5px;
 }
@@ -166,6 +166,8 @@ a {
     background-size: cover;
   */
   color: white;
+  font-weight: bold;
+  font-shadow: 3px 3px 3px 3px;
   &__fullname {
     font-size: 32px;
     float: left;
@@ -227,7 +229,10 @@ a {
     }
 
     table tr.total {
-      background-color: @banner-color;
+      background-color: @accent-color;
+      font-weight: bold;
+      color: white;
+      text-align: center;
     }
   }
 
